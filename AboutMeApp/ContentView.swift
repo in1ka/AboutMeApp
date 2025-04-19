@@ -11,7 +11,12 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("Hello, Everyone!")
+                .fontWeight(.bold)
+                .font(.title)
             Text("I'm Inika and I'm so excited to be here!")
+                .font(.headline)
+            
+            
             
         }
         .padding()
